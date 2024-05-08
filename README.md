@@ -2,7 +2,9 @@
 
 Fast select day-to-day commands, because ⏰ is 💰!
 
-![docs](./docs/quickshell.png)
+<p align="center">
+  <img src="./docs/quickshell.png">
+</p>
 
 ## Getting started
 
