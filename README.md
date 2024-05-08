@@ -6,6 +6,8 @@ Fast select day-to-day commands, because ⏰ is 💰!
 
 ## Getting started
 
+Your frequent commands should be in `~/.quickshell`
+
 ```sh
 # create a link to script
 chmod +x bin/quickshell
