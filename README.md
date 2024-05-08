@@ -8,13 +8,27 @@ Fast select day-to-day commands, because ⏰ is 💰!
 
 ```sh
 # create a link to script
-chmod +x quickshell.sh
+chmod +x bin/quickshell
+ln -sf $PWD/bin/quickshell /usr/local/bin/quickshell
 
 # setup your commands
-mv commands.txt.tmpl commants.txt
-echo "echo \"my nice command\"" > commands.txt
-echo "echo \"my other nice command\"" > commands.txt
+mv .quickshell ~/.quickshell
+echo "echo \"my nice command\"" > ~/.quickshell
+echo "echo \"my other nice command\"" > ~/.quickshell
 
 # run and have fun
-./quickshell
+quickshell
+```
+
+## Build for release
+
+```sh
+shc -f quickshell.sh -o bin/quickshell
+```
+
+## Uinstall
+
+```sh
+rm -rf /usr/local/bin/quickshell
+rm ~/.quickshell
 ```

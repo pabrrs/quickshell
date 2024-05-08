@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 quickshell_label() {
     echo "⚡️ quickshell ⚡️"
 }
@@ -52,10 +54,7 @@ handle_input() {
 }
 
 # Read options from file and populate the array
-options=()
-while IFS= read -r line; do
-    options+=("$line")
-done < "$PWD/commands.txt"
+IFS=$'\n' read -d '' -r -a options < ~/.quickshell
 
 # Initialize selected index
 selected_index=0
