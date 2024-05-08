@@ -26,7 +26,7 @@ quickshell
 shc -f quickshell.sh -o bin/quickshell
 ```
 
-## Uinstall
+## Uninstall
 
 ```sh
 rm -rf /usr/local/bin/quickshell
