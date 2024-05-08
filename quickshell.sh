@@ -3,6 +3,7 @@
 
 
 quickshell_label() {
+    echo ""
     echo "⚡️ quickshell ⚡️"
 }
 
