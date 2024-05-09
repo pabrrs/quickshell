@@ -8,7 +8,7 @@ Fast select day-to-day commands, because ⏰ is 💰!
 
 ## Getting started
 
-Your frequent commands should be in `~/.quickshell`
+Your frequent commands will be stored in `~/.quickshell`
 
 ```sh
 # install
