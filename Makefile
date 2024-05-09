@@ -5,3 +5,6 @@ build:
 install:
 	chmod +x ./bin/quickshell
 	ln -sf "${PWD}/bin/quickshell" /usr/local/bin/quickshell
+
+uninstall:
+	rm -f /usr/local/bin/quickshell ~/.quickshell
