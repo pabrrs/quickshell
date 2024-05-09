@@ -43,5 +43,5 @@ make build
 ## Uninstall
 
 ```sh
-rm -f /usr/local/bin/quickshell ~/.quickshell
+make uninstall
 ```
