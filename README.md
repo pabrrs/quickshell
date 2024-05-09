@@ -11,23 +11,33 @@ Fast select day-to-day commands, because ⏰ is 💰!
 Your frequent commands should be in `~/.quickshell`
 
 ```sh
-# create a link to script
-chmod +x bin/quickshell
-ln -sf $PWD/bin/quickshell /usr/local/bin/quickshell
-
-# setup your commands
-mv .quickshell ~/.quickshell
-echo "echo \"my nice command\"" > ~/.quickshell
-echo "echo \"my other nice command\"" > ~/.quickshell
-
+# install
+make install
+# add your command
+quickshell --add 
 # run and have fun
 quickshell
+```
+
+## Usage
+```
+⚡️ quickshell ⚡️
+
+Fast select day-to-day commands, because ⏰ is 💰!
+
+    --add, -a: Add a new command to the list.
+
+    --remove, -r: Remove a command from the list.
+
+    --list, -l: List all registered commands.
+
+    --help, -h: Show this help message.
 ```
 
 ## Build for release
 
 ```sh
-shc -f quickshell.sh -o bin/quickshell
+make build
 ```
 
 ## Uninstall
