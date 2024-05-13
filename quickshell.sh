@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 BRAND="⚡️ quickshell ⚡️"
 HEADLINE="Fast select day-to-day commands, because ⏰ is 💰!"
