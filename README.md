@@ -34,12 +34,6 @@ Fast select day-to-day commands, because ⏰ is 💰!
     --help, -h: Show this help message.
 ```
 
-## Build for release
-
-```sh
-make build
-```
-
 ## Uninstall
 
 ```sh
