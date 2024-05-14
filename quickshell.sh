@@ -136,6 +136,8 @@ if [[ "$1" == "--help" || "$1" == "-h" ]]; then
     echo ""
     echo "${HEADLINE}"
     echo ""
+    echo "Usage: quickshell | qsh"
+    echo ""
     echo "    --add, -a: Add a new command to the list."
     echo ""
     echo "    --remove, -r: Remove a command from the list."
@@ -143,7 +145,6 @@ if [[ "$1" == "--help" || "$1" == "-h" ]]; then
     echo "    --list, -l: List all registered commands."
     echo ""
     echo "    --help, -h: Show this help message."
-    echo ""
     exit 0
 fi
 

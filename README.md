@@ -14,13 +14,16 @@ Your frequent commands will be stored in `~/.quickshell`
 # install
 make install
 # add your command
-quickshell --add 
+qsh --add
 # run and have fun
-quickshell
-```
+qsh
+``` 
 
 ## Usage
 ```
+> quickshell --help
+> qsh --help
+
 ⚡️ quickshell ⚡️
 
 Fast select day-to-day commands, because ⏰ is 💰!

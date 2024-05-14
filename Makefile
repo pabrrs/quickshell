@@ -1,7 +1,9 @@
 install:
 	chmod +x quickshell.sh
 	ln -sf "${PWD}/quickshell.sh" /usr/local/bin/quickshell
-	chmod +x /usr/local/bin/quickshell
+	ln -sf "${PWD}/quickshell.sh" /usr/local/bin/qsh
+
+	qsh --help
 
 uninstall:
-	rm -f /usr/local/bin/quickshell ~/.quickshell
+	rm -f /usr/local/bin/quickshell /usr/local/bin/qsh ~/.quickshell
