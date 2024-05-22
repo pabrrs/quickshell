@@ -130,6 +130,12 @@ if [[ "$1" == "--list" || "$1" == "-l" ]]; then
     exit 0
 fi
 
+# Edit .quickshell
+if [[ "$1" == "--edit" || "$1" == "-e" ]]; then
+    nano ~/.quickshell
+    exit 0
+fi
+
 # Check for command line arguments for help
 if [[ "$1" == "--help" || "$1" == "-h" ]]; then
     echo "${BRAND}"
@@ -143,6 +149,8 @@ if [[ "$1" == "--help" || "$1" == "-h" ]]; then
     echo "    --remove, -r: Remove a command from the list."
     echo ""
     echo "    --list, -l: List all registered commands."
+    echo ""
+    echo "    --edit, -e: Edit your command list in ~/.quickshell"
     echo ""
     echo "    --help, -h: Show this help message."
     exit 0
