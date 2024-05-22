@@ -28,13 +28,15 @@ qsh
 
 Fast select day-to-day commands, because ⏰ is 💰!
 
-    --add, -a: Add a new command to the list.
+    --add, -a: Add a new command to the list
 
-    --remove, -r: Remove a command from the list.
+    --remove, -r: Remove a command from the list
 
-    --list, -l: List all registered commands.
+    --list, -l: List all registered commands
 
-    --help, -h: Show this help message.
+    --edit, -e: Edit your command list in ~/.quickshell
+
+    --help, -h: Show this help message
 ```
 
 ## Uninstall
