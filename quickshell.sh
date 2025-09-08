@@ -26,6 +26,12 @@ clear_screen() {
 display_dropdown() {
     clear_screen
     quickshell_label
+    if [ ${#options[@]} -eq 0 ]; then
+        echo "⚠️  No commands found in ~/.quickshell."
+        sleep 1
+        "$0" --add
+        exit 0
+    fi
     echo "Select a command:"
     for ((i=0; i<${#options[@]}; i++)); do
         if [ $i -eq $selected_index ]; then
